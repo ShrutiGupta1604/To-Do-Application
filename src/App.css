@@ -1,0 +1,159 @@
+.main-body
+{
+  background: linear-gradient(120deg, rgba(237, 245, 12, 0.916) 0%, rgba(236, 175, 5, 0.768) 35%, rgba(255, 128, 0, 0.661) 100%);
+   width:100vw;
+   height: 100vh; 
+   /* position: fixed; */
+    
+}
+
+.todoHeading
+{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;   
+  font-family :serif
+}
+
+.ownerHeading
+{
+  text-align: center; 
+  font-size: 20px; 
+  font-family :serif
+}
+
+.compelete-todo
+{
+  display:flex;
+}
+
+.compelet-todo-text
+{
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: rgba(17, 97, 5, 0.915);
+  
+}
+
+.compelete-check
+{
+  height: 30px;
+  width: 20px;
+  margin-right: 30px;
+  margin-left: 5px; 
+}
+
+.todoList
+{
+  display: flex;
+  border:2px solid rgba(234, 132, 7, 0.956);
+  border-radius: 15px;
+  width:900px;
+  height: 40px;
+  justify-content:space-between;
+  margin-top: 10px;
+  margin-left: 100px;
+  align-items:center;
+  background-color:aliceblue;
+}
+
+.after-edit
+{
+  padding-left: 10px;
+}
+
+.check-icon
+{
+ padding-right: 40px;
+}
+
+.text-todo
+{
+  padding-left: 20px;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic; 
+}
+.app-popus
+{
+  margin-left: 600px;
+  height:30px;
+  width: 100px;
+  background: linear-gradient(90deg, rgba(194, 0, 145, 0.61) 0%, rgba(9, 9, 121, 0.288) 35%, rgba(212, 0, 255, 0.726) 100%);
+  border-radius: 10px;
+  margin-top: 100px;
+}
+ 
+.todo-Input
+{
+  border: 2px solid rgba(234, 132, 7, 0.956);
+  height: 29px;
+  width: 300px;
+  border-radius: 15px;
+  margin-left:20px;
+  margin-top: 20px;
+}
+.todo-Input::placeholder
+{
+  padding-left:5px;
+}
+.todo-Input text{
+  padding-left: 5px ;
+}
+.todo-Input
+{
+  padding-left: 10px; 
+}
+.add-Todo-Button
+{
+   height:30px;
+   width: 100px;
+   background: linear-gradient(120deg, rgba(239, 189, 9, 0.916) 0%, rgba(236, 175, 5, 0.768) 35%, rgba(255, 128, 0, 0.661) 100%);
+   border-radius: 10px; 
+   margin-left: 10px;  
+   border-color: 2px solid rgb(245, 150, 7);
+    
+}
+.add-Todo-Button:hover
+{
+  border: 2px solid orangered; 
+}
+.add-icon:hover
+{
+  border: 1px solid yellow;
+}
+ 
+.after-edit input
+{
+  border: 2px solid orangered;
+  border-radius: 10px;
+  background: none;
+  padding-left: 10px;
+  font-size: 20px;
+  font-style: italic; 
+  color: blue;
+}
+ 
+.close-icon
+{
+  margin-left:530px;
+}
+.btn-Added
+{
+  margin-left: 610px;
+  margin-top: 20px;
+  padding-top:5px;
+  border: 2px solid rgba(234, 132, 7, 0.956);
+  height: 30px;
+  width:120px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.671);
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.btn-Added:hover
+{
+  border-color: orangered;
+}
